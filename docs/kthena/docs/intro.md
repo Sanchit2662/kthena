@@ -13,12 +13,12 @@ sidebar_position: 1
 
 ## Why Kthena?
 
-| Challenge | Kthena's Answer |
-|---|---|
-| Managing multiple inference engines | Unified CRD layer that abstracts vLLM, SGLang, Triton, and TorchServe behind a consistent API |
-| Balancing latency vs. throughput | Request-level scheduler with pluggable scoring — KV-cache awareness, prefix-cache matching, LoRA affinity, least-request, least-latency |
-| Scaling large models cost-effectively | Prefill/Decode disaggregation with independent scaling ratios and cost-aware autoscaling |
-| Safe model updates in production | Rolling upgrades with partition control, canary releases, and automated failover |
+| Challenge                             | Kthena's Answer                                                                                                                         |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Managing multiple inference engines   | Unified CRD layer that abstracts vLLM, SGLang, Triton, and TorchServe behind a consistent API                                           |
+| Balancing latency vs. throughput      | Request-level scheduler with pluggable scoring — KV-cache awareness, prefix-cache matching, LoRA affinity, least-request, least-latency |
+| Scaling large models cost-effectively | Prefill/Decode disaggregation with independent scaling ratios and cost-aware autoscaling                                                |
+| Safe model updates in production      | Rolling upgrades with partition control, canary releases, and automated failover                                                        |
 
 ---
 
