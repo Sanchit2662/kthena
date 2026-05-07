@@ -83,8 +83,8 @@ const config: Config = {
           rehypePlugins: [rehypeKatex],
         },
         blog: {
-          showReadingTime: true,
           blogSidebarCount: 'ALL',
+          showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
